@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location and Variable Selection</title>
+</head>
+<body>
+    <h1>Enter Location and Choose a Variable</h1>
+    <form action="/submit" method="POST">
+        <!-- Input for Location -->
+        <label for="location">Enter Location:</label>
+        <input type="text" id="location" name="location" required>
+        <br><br>
+
+        <!-- Selection Box for Variables -->
+        <label for="variables">Choose a variable:</label>
+        <select id="variables" name="variable" required>
+            <option value="temperature">Temperature</option>
+            <option value="rainfall">Rainfall</option>
+        </select>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
